@@ -1,0 +1,12 @@
+{
+    "Version": "1.0",
+    "Parameters": {
+      "RuleName": "SQS_Required_Tags",
+      "SourceRuntime": "python3.7",
+      "CodeKey": "SQS_Required_Tags.zip",
+      "InputParameters": "{\"RequiredTags\": \"Environment,Owner,DataClassification\"}",
+      "OptionalParameters": "{}",
+      "SourceEvents": "AWS::SQS::Queue"
+    },
+    "Tags": "[]"
+  }
